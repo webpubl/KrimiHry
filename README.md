@@ -91,22 +91,6 @@
             margin: 10px 0;
             color: #aaffaa;
         }
-
-        /* Styl pro odkaz na stažení hry */
-        .download-link {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #cc0000;
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2rem;
-            transition: background-color 0.3s;
-        }
-
-        .download-link:hover {
-            background-color: #ff3333;
-        }
     </style>
 </head>
 <body>
@@ -125,24 +109,27 @@
 
         <!-- Sekce Krimi Hry ve stylu karet -->
         <div id="games" class="section-title">Krimi Hry</div>
-        <div class="card" onclick="window.location.href='https://example.com/game1';">
-            <img src="game1.png" alt="Krimi Hra 1">
-            <div class="card-title">Město Zločinu</div>
-            <p>Staňte se detektivem a odhalte tajemství města plného záhad.</p>
-        </div>
-        <div class="card" onclick="window.location.href='https://example.com/game2';">
-            <img src="game2.png" alt="Krimi Hra 2">
-            <div class="card-title">Únik z vězení</div>
-            <p>Pomožte nevinnému uprchnout ze spárů nespravedlnosti!</p>
-        </div>
-        <div class="card" onclick="window.location.href='https://example.com/game3';">
-            <img src="game3.png" alt="Krimi Hra 3">
-            <div class="card-title">Lovec Stínů</div>
-            <p>Vyřešte zločiny a dopadněte tajemného pachatele.</p>
-        </div>
-
-        <!-- Odkaz na stažení hry -->
-        <a href="http://tvá-domena.com/game.zip" class="download-link" download>Stáhnout Hru</a>
+        <a href="http://mestozlocinu.com/Assets/game1.zip" download>
+            <div class="card">
+                <img src="game1.png" alt="Krimi Hra 1">
+                <div class="card-title">Město Zločinu</div>
+                <p>Staňte se detektivem a odhalte tajemství města plného záhad.</p>
+            </div>
+        </a>
+        <a href="http://mestozlocinu.com/Assets/game2.zip" download>
+            <div class="card">
+                <img src="game2.png" alt="Krimi Hra 2">
+                <div class="card-title">Únik z vězení</div>
+                <p>Pomožte nevinnému uprchnout ze spárů nespravedlnosti!</p>
+            </div>
+        </a>
+        <a href="http://mestozlocinu.com/Assets/game3.zip" download>
+            <div class="card">
+                <img src="game3.png" alt="Krimi Hra 3">
+                <div class="card-title">Lovec Stínů</div>
+                <p>Vyřešte zločiny a dopadněte tajemného pachatele.</p>
+            </div>
+        </a>
     </div>
 </body>
 </html>
