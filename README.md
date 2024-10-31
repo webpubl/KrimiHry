@@ -91,6 +91,13 @@
             margin: 10px 0;
             color: #aaffaa;
         }
+
+        /* Text upozornění */
+        .coming-soon {
+            font-size: 1rem;
+            color: #ff6666;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -109,6 +116,8 @@
 
         <!-- Sekce Krimi Hry ve stylu karet -->
         <div id="games" class="section-title">Krimi Hry</div>
+        
+        <!-- Aktivní odkaz na stažení pro Město Zločinu -->
         <a href="http://mestozlocinu.com/Assets/game1.zip" download>
             <div class="card">
                 <img src="game1.png" alt="Krimi Hra 1">
@@ -116,20 +125,19 @@
                 <p>Staňte se detektivem a odhalte tajemství města plného záhad.</p>
             </div>
         </a>
-        <a href="http://mestozlocinu.com/Assets/game2.zip" download>
-            <div class="card">
-                <img src="game2.png" alt="Krimi Hra 2">
-                <div class="card-title">Únik z vězení</div>
-                <p>Pomožte nevinnému uprchnout ze spárů nespravedlnosti!</p>
-            </div>
-        </a>
-        <a href="http://mestozlocinu.com/Assets/game3.zip" download>
-            <div class="card">
-                <img src="game3.png" alt="Krimi Hra 3">
-                <div class="card-title">Lovec Stínů</div>
-                <p>Vyřešte zločiny a dopadněte tajemného pachatele.</p>
-            </div>
-        </a>
+        
+        <!-- Ostatní hry s upozorněním, že nejsou v provozu -->
+        <div class="card">
+            <img src="game2.png" alt="Krimi Hra 2">
+            <div class="card-title">Únik z vězení</div>
+            <p class="coming-soon">Tato hra není ještě v provozu.</p>
+        </div>
+
+        <div class="card">
+            <img src="game3.png" alt="Krimi Hra 3">
+            <div class="card-title">Lovec Stínů</div>
+            <p class="coming-soon">Tato hra není ještě v provozu.</p>
+        </div>
     </div>
 </body>
 </html>
